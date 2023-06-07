@@ -1,0 +1,219 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+}
+*{
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#menu {
+	background-color: azure;
+	opacity: 0.8;
+	color: #000000;
+	height: 49px;
+	padding-left: 32%;
+	border-radius: 10px;
+    
+}
+body{
+    background-image: url(https://fondosmil.com/fondo/1696.jpg);
+    height: 100px;
+    
+}
+#menu ul, #menu li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+#menu ul {
+	width: 100%;
+}
+#menu li {
+	float: left;
+	display: inline;
+	position: relative;
+}
+#menu a {
+	display: block;
+	line-height: 49px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #000000;
+	font-size: 18px;
+}
+#menu a.dropdown-arrow:after {
+	content: "\2193";
+	margin-left: 5px;
+}
+#menu li a:hover {
+	color: #0099CC;
+	background: #F2F2F2;
+}
+#menu input {
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: 49px;
+	width: 100%;
+	opacity: 0;
+	cursor: pointer
+}
+#menu label {
+	display: none;
+	line-height: 49px;
+	text-align: center;
+	position: absolute;
+	left: 35px
+}
+#menu label:before {
+	font-size: 1.6em;
+	content: "\2261"; 
+	margin-left: 20px;
+}
+#menu ul.sub-menus{
+	height: auto;
+	overflow: hidden;
+	width: 170px;
+	background: #444444;
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+#menu ul.sub-menus li {
+	display: block;
+	width: 100%;
+}
+#menu ul.sub-menus a {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#menu li:hover ul.sub-menus {
+	display: block
+}
+#menu ul.sub-menus a:hover{
+	background: #F2F2F2;
+	color: #444444;
+}
+@media screen and (max-width: 800px){
+	#menu {position:relative}
+	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
+	#menu ul.sub-menus {width:100%;position:static;}
+	#menu ul.sub-menus a {padding-left:30px;}
+	#menu li {display:block;float:none;width:auto;}
+	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
+	#menu input {z-index:4}
+	#menu input:checked + label {color:white}
+	#menu input:checked + label:before {content:"\00d7"}
+	#menu input:checked ~ ul {display:block}
+}
+header{
+    
+    height: 100px;
+    opacity: 0.8;
+}
+h1{
+    color: rgb(0, 0, 0) ;
+    font-size: 300%;
+    justify-content: center;
+    display: grid;
+	background-color: azure;
+	
+}
+.perfil{
+    grid-template-columns: auto auto ;
+    justify-content: right;
+    display: grid;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    justify-content: right;
+    display:grid;
+    height: 70px;
+    width: 70px;
+}
+h2{
+	font-family: cursive;
+	font-size: 50px;
+	display: grid;
+	justify-content: center;
+	margin-top: 0.5px;
+}
+#crear{
+	height: 17%;
+	width: 20%;
+	font-size: 30px;
+	background-color: azure ;
+	opacity: 0.8;
+	margin-bottom: 5%;
+	margin-left: 22%;
+	
+}
+
+footer{
+	background-color: azure;
+	height: 50%;
+}
+#padre{
+	display:grid;
+	grid-template-columns: auto auto auto ;
+
+}
+#leer{
+	height: 75%;
+	width: 75%;
+	margin-left: 20%;
+	border-radius: 15%;
+}
+#leer:hover{
+	transition: linear 2s;
+	height: 85%;
+	width: 85%;
+}
+#lectura{
+	height: 75%;
+	width: 75%;
+	margin-left: 20%;
+	border-radius: 15%;
+}
+#lectura:hover{
+	transition: linear 2s;
+	height: 85%;
+	width: 85%;	
+}
+h4{
+	color: #000000;
+	justify-content: center;
+	display: grid;
+}
+a{
+    
+	color: #000000;
+	border-color: solid #0099CC  3px ;
+}
+.guardar{
+    padding: 8px;
+    border-radius: 5px 0;
+}
+.guardar:hover{
+    
+    opacity: 0.8;
+    color: rgb(250, 197, 132);
+    border: solid black;
+}
+.redes {
+    text-align: right   ;
+	grid-template-columns: auto;
+	display: grid;
+	position: fixed;
+	margin-left: 95%;
+}
+.redes a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;  
+}

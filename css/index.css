@@ -1,0 +1,80 @@
+*{
+    margin-top: 0;
+    padding-top: 0;
+}
+body{
+    background-image: url(https://fondosmil.com/fondo/110684.jpg);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    margin-bottom: 10%;
+}
+h1{
+    color: white ;
+    font-size: 300% ;
+    justify-content: center;
+    display: grid;
+}
+header{
+    width: 100%;
+    background-image: url(https://fondosmil.com/fondo/5445.jpg);
+    height: 100px;
+    opacity: 0.8;
+}
+legend{
+    margin-left: 40%;
+    color: black;
+    font-size: 30px;  
+}
+#registro{
+    margin-top: 5%;
+    height: 96%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    color: rgb(0, 0, 0);
+    background-color: azure;
+    opacity: 0.8;   
+}
+#ingreso{
+    height: 80%;
+    width: 80%;
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+}   
+#ingre{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+h3{
+    margin-top: 20%;
+    font-size: 20px;
+}
+a{
+    margin-top: 10%;
+    display: grid;
+    margin-left: 100%;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+footer{
+    margin-top: 9%;
+	background-color: azure;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+h4{
+	color: #000000;
+	justify-content: center;
+	display: grid;
+}
